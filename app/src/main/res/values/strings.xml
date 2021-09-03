@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Semana02</string>
+    <string name="txt_ingreso_cliente">Ingreso de  cliente</string>
+
+
+
+    <string-array  name="txtArrayCategoria">
+    <item>[Seleccione de Categoria] </item>
+    <item>Vip </item>
+    <item>Super Vip </item>
+    <item>Platinium </item>
+  </string-array>
+
+</resources>
