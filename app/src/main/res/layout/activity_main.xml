@@ -17,14 +17,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
+       <TextView
             android:id="@+id/idTextTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="#1791C6"
             android:text="@string/txt_ingreso_cliente"
             android:textAlignment="center"
+            android:textColor="#FFFFFF"
             android:textSize="30sp" />
 
         <EditText
@@ -99,11 +103,14 @@
             </RadioGroup>
         </LinearLayout>
 
-        <Button
+         <Button
             android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
             android:layout_height="67dp"
-            android:text="Registrar" />
+            android:backgroundTint="#33276B"
+            android:text="Registrar"
+            android:textSize="20sp" />
+
 
 
     </LinearLayout>
